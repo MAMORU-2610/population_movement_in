@@ -59,7 +59,7 @@
         config.width = config.width || 1100;
         config.height = config.height || 1100;
         config.margin = config.margin || 125;
-        config.outerRadius = config.outerRadius || (Math.min(config.width, config.height) / 2 - config.margin);
+        config.outerRadius = config.outerRadius || (Math.min(config.width, config.height) / 2 - config.margin)*1.1;
         config.arcWidth = config.arcWidth || 24;
         config.innerRadius = config.innerRadius || (config.outerRadius - config.arcWidth);
         config.arcPadding = config.arcPadding || 0.02;
